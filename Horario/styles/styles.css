@@ -1,0 +1,70 @@
+body {  /* Establece la imagen del fondo de la página */
+    background-image: url("../images/fondo.avif");
+    background-size: cover;
+}
+
+table {
+    border: 1px solid rgb(0, 0, 0); /* Borde de la tabla */
+    border-collapse: collapse; /* Une las lineas */
+    margin: auto; /* Coloca al centro */
+    text-align: center; /* El texto se colocal al centro de la casilla */
+    padding: 10px; /* Espacio entre la casilla y las letras  */
+    width: 50%; /* Ancho para que se adapte a la página */
+}
+
+tr,td {
+    padding: 10px; /* Espacio entre la casilla y las letras  */
+    border: 1px solid rgb(0, 0, 0); /* Borde de las casilla */
+    border-collapse: collapse; /* Une las lineas */
+    font-family: 'Indie Flower', cursive; /* fuente externa para el texto */
+}
+
+th {
+    border: 1px solid rgb(0, 0, 0); /* Borde de la cabecera */
+    border-collapse: collapse; /* Une las lineas */
+    background-color: #ffab74; /* Color del fondo de la cabecera */
+    font-family: 'Pacifico', cursive;
+}
+/* Clases para cada asignatura distinta */
+.prog {
+    background-color: #ebf3a0; /* Color del fondo de las casillas */
+}
+
+.bases {
+    background-color: #f5fac1;
+}
+
+.marca {
+    background-color: #8cfca4;
+}
+
+.entorno {
+    background-color: #75b79e;
+}
+
+.sistema {
+    background-color: #cffde1;
+}
+
+.fol {
+    background-color: #fed049;
+}
+
+.hora {
+    background-color: #4afde7;
+    font-family: 'Chakra Petch', sans-serif; /* Fuente externa para el texto */
+}
+
+.recreo {
+    background-color: #e2e3e7;
+}
+
+h1 {
+    text-align: center; /* Texto al centro */
+    font-family: 'Black Ops One', cursive; /* Fuente externa para el texto */
+    font-size: xx-large; /* Tamaño del texto */
+    color: #465188; /* Color del texto */
+    background-color: #a2d2ff; /* Color del fondo del texto */
+    width: 30%; /* Ancho para el texto */
+    margin: auto; /* Cuadro al centro */
+}
