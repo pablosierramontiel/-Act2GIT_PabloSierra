@@ -1,0 +1,91 @@
+*{ /* Para que ocupe toda la página sin espacios */
+    margin: 0;
+    padding: 0;
+}
+
+.principal{ /* Hace que se represente como flex */
+    display: flex;
+}
+/* Lo más importante de styles en este caso es establecer el tamaño de las columnas y filas para que no acabe de forma extraña */
+/* También se establece el color de fondo, el color de fuente, la fuente, etc. */
+header{
+    display:flex;
+    
+    height: 10vh;
+    font-size: xx-large;
+
+}
+
+.navegacion{
+    height: 80vh;
+    width: 19vw;
+    background-color: #F56A47;    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.medio{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.arriba{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    background-color: green;
+    align-items: center;
+}
+
+.abajo{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+
+
+.section1{
+    height: 10vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+
+.section2{
+    height: 10vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+
+
+footer{
+    height: 10vh;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+
+
+
