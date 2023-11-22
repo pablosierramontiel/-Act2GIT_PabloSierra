@@ -45,9 +45,9 @@ header{
 
 .abajo{
     height: 40vh;
-    width: 100vw;
+    width: 30vw;
     display: flex;
-
+    flex-direction: column;
 }
 
 
